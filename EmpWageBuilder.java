@@ -9,7 +9,7 @@ public class EmpWageBuilder {
 	public static final int EMP_RATE_PER_HR = 20;
 	public static final int MAX_HRS_IN_MONTH=10;
 	
-	public static void Test()
+	public static void CalcEmpWage()
 	{
 		int salary,emphrs;
 		int totalworkinghours=0;
@@ -40,7 +40,7 @@ public class EmpWageBuilder {
 
 	public static void main(String[] args) {
 		
-		EmpWageBuilder.Test();
+		EmpWageBuilder.CalcEmpWage();
 
 				
 	}
