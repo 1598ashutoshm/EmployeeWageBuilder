@@ -1,5 +1,3 @@
-package EmployeeWageBuilder;
-
 
 public class EmpWageBuilder {
 	
@@ -8,9 +6,9 @@ public class EmpWageBuilder {
 	public static final int NO_OF_WORKING_DAYS=2;
 	public static final int EMP_RATE_PER_HR = 20;
 	public static final int MAX_HRS_IN_MONTH=10;
-	
-	public static void CalcEmpWage()
-	{
+
+	public static void main(String[] args) {
+
 		int salary,emphrs;
 		int totalworkinghours=0;
 		int totalworkingdays=0;
@@ -35,13 +33,6 @@ public class EmpWageBuilder {
 	        System.out.println("Day#: " + totalworkingdays + " Emp hr" + emphrs);
 		}
 		salary=EMP_RATE_PER_HR * totalworkinghours;
-		System.out.print("Total Wage: "+ salary);
-	}
-
-	public static void main(String[] args) {
-		
-		EmpWageBuilder.CalcEmpWage();
-
-				
+		System.out.print("Total Wage: "+ salary);		
 	}
 }
